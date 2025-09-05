@@ -78,6 +78,13 @@
         </a>
       </td>
     </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <a href="https://github.com/Kishore-83096/basic-python-atm-simulator">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=basic-python-atm-simulator&theme=tokyonight&hide_border=true" />
+        </a>
+      </td>
+    </tr>
   </table>
 </div>
 
