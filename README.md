@@ -1,22 +1,3 @@
-Of course\! I've upgraded your `README.md` to give it an even more modern and professional feel.
-
-This version introduces a more dynamic "What I Do" section, switches to visually appealing project cards instead of a simple table, adds GitHub Trophies for more visual flair, and ensures a consistent dark theme across all elements.
-
-### Key Upgrades:
-
-  * **Dynamic "What I Do" Section:** Replaced the "About Me" list with a more structured and visually scannable grid that highlights your core competencies.
-  * **Live Project Cards:** Your projects are now showcased using dynamic, clickable cards that display stats like stars and forks directly from your repositories.
-  * **GitHub Trophies:** Added a trophy case to your stats section, which adds a fun and visually engaging element to your profile.
-  * **Thematic Consistency:** Updated the skill icons to a dark theme to match your GitHub stats cards, creating a cohesive look.
-  * **Code Polish:** Removed unnecessary spacing and cleaned up the formatting for better readability.
-
------
-
-### Upgraded `README.md` Code:
-
-Simply copy the code below and paste it into your `readme.md` file.
-
-```markdown
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=200&section=header&text=Hi%20👋,%20I'm%20Jaya%20Kishore!&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=40" alt="Header Banner"/>
 </p>
@@ -159,4 +140,3 @@ Simply copy the code below and paste it into your `readme.md` file.
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=120&section=footer" alt="Footer Banner"/>
 </p>
-```
