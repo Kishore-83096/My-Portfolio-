@@ -36,7 +36,7 @@
 | **🛒 [Zylo E-commerce](https://github.com/Kishore-83096/Zylo)** | Full-featured e-commerce platform for browsing and purchasing electronic gadgets. | `Django` `Python` `MySQL` `HTML/CSS` `JavaScript` |
 | **🤟 [Sign Language Recognition](https://github.com/Kishore-83096/Sign-Language-Recognition)** | Real-time system to translate hand gestures into text using computer vision. | `Python` `OpenCV` `TensorFlow` `Keras` |
 | **📝 [Online Assessment Platform](https://github.com/Kishore-83096/Online-Assessment-Platform)** | Platform to create, assign, and evaluate coding & MCQ-based assessments online. | `Django` `Python` `JavaScript` `HTML/CSS` `MY Sql` 'React js'|
-| **🛍️ [Supermarket Inventory & Billing System](https://github.com/Kishore-83096/Supermarket-Billing-System](https://github.com/Kishore-83096/Supermarket-Billing-Inventory-Management-System-Python-Tkinter-)** | Desktop app to manage inventory and automate billing with reporting features. | `Python` `MySQL` `Tkinter` |
+| **🛍️ [Supermarket Inventory & Billing System](https://github.com/Kishore-83096/Supermarket-Billing-Inventory-Management-System-Python-Tkinter-)** | Desktop app to manage inventory and automate billing with reporting features. | `Python` `MySQL` `Tkinter` |
 
 ---
 
