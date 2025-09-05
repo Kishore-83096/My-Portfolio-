@@ -4,22 +4,20 @@
   <h3>
     💻 Full Stack Developer | 🚀 Django Enthusiast | 🤖 Automation Explorer
   </h3>
-  <p>Welcome to my little corner of the internet! I build robust web applications and explore the frontiers of automation.</p>
+  <p>Welcome to my corner of the internet! I build robust web apps and explore automation & AI.</p>
 </div>
 
 ---
 
 ## 🚀 About Me
-- 💡 I'm passionate about building scalable and impactful web applications using **Django & Python**.
-- 🤝 A collaborative problem-solver who enjoys working in teams to bring creative ideas to life.
-- 🔍 Currently diving deep into the world of **Machine Learning** and **Robotic Process Automation (RPA)**.
-- 🎯 My goal is to craft user-friendly applications that are both efficient and elegant.
+- 💡 Passionate about building scalable and impactful web applications using **Django & Python**.  
+- 🤝 Collaborative problem-solver who enjoys teamwork and creative solutions.  
+- 🔍 Exploring **Machine Learning** and **Robotic Process Automation (RPA)**.  
+- 🎯 Goal: Craft user-friendly, efficient, and elegant applications.
 
 ---
 
 ## 🛠️ My Tech Stack
-
-Here are some of the technologies I work with:
 
 <div align="center">
 
@@ -33,12 +31,12 @@ Here are some of the technologies I work with:
 
 ## 📂 Featured Projects
 
-Here are a few projects I'm proud of. You can find more on my GitHub profile!
-
 | Project | Description | Tech Stack |
 |---|---|---|
-| **🛒 [Zylo E-commerce](https://github.com/Kishore-83096/Zylo)** | A full-featured e-commerce platform for browsing and purchasing electronic gadgets. | `Django` `Python` `MySQL` `HTML/CSS` `JavaScript` |
-| **🤟 [Sign Language Recognition](https://github.com/Kishore-83096/Sign-Language-Recognition)** | Developed a real-time sign language recognition system to translate hand gestures into text using computer vision. | `Python` `OpenCV` `TensorFlow` `Keras` |
+| **🛒 [Zylo E-commerce](https://github.com/Kishore-83096/Zylo)** | Full-featured e-commerce platform for browsing and purchasing electronic gadgets. | `Django` `Python` `MySQL` `HTML/CSS` `JavaScript` |
+| **🤟 [Sign Language Recognition](https://github.com/Kishore-83096/Sign-Language-Recognition)** | Real-time system to translate hand gestures into text using computer vision. | `Python` `OpenCV` `TensorFlow` `Keras` |
+| **📝 [Online Assessment Platform](https://github.com/Kishore-83096/Online-Assessment-Platform)** | Platform to create, assign, and evaluate coding & MCQ-based assessments online. | `Django` `Python` `JavaScript` `HTML/CSS` `SQLite` |
+| **🛍️ [Supermarket Inventory & Billing System](https://github.com/Kishore-83096/Supermarket-Billing-System)** | Desktop app to manage inventory and automate billing with reporting features. | `Python` `MySQL` `Tkinter` |
 
 ---
 
@@ -47,37 +45,38 @@ Here are a few projects I'm proud of. You can find more on my GitHub profile!
 <details>
   <summary><strong>Associate Software Engineer</strong> @ Tech Mahindra (6 Months)</summary>
   <ul>
-    <li>⚡ Automated complex business processes using Robotic Process Automation (RPA), improving efficiency and reducing manual errors.</li>
-    <li>🤝 Collaborated with an Agile team to analyze requirements, design automation workflows, and deploy solutions.</li>
+    <li>⚡ Automated complex business processes using RPA, improving efficiency and reducing errors.</li>
+    <li>🤝 Collaborated with Agile teams to analyze requirements, design workflows, and deploy solutions.</li>
   </ul>
 </details>
 
 <details>
   <summary><strong>Full Stack Developer Intern</strong> (3 Months)</summary>
   <ul>
-    <li>⚡ Gained hands-on experience in building and maintaining web applications from the ground up.</li>
-    <li>💻 Worked extensively with Django, Python, JavaScript, and MySQL to implement core features and resolve bugs.</li>
+    <li>⚡ Built and maintained web applications from scratch.</li>
+    <li>💻 Worked extensively with Django, Python, JavaScript, and MySQL to implement features and fix bugs.</li>
   </ul>
 </details>
 
 ---
 
 ## 🎓 Education
-- **Bachelor of Technology (B.Tech), Computer Science & Engineering**
-  - *Raghu Institute of Technology* (Graduated 2022)
-  - CGPA: 6.8
+- **Bachelor of Technology (B.Tech), Computer Science & Engineering**  
+  *Raghu Institute of Technology* (2022) | CGPA: 6.8
 
 ---
 
-## 📊 My GitHub Insights
+## 📊 GitHub Insights
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Kishore-83096&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile views"/>
 </p>
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Kishore-83096&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kishore-83096&theme=tokyonight&hide_border=true" height="165"/>
 </p>
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kishore-83096&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
@@ -85,16 +84,14 @@ Here are a few projects I'm proud of. You can find more on my GitHub profile!
 ---
 
 ## 🏆 Achievements & Fun Facts
-- 🥇 Successfully built and deployed a full-stack **E-commerce application** from concept to completion.
-- 🎨 A keen eye for **UI/UX**, with a passion for creating minimalist and modern designs.
-- 🤝 Thrived in a collaborative **Agile environment** at Tech Mahindra, contributing to team success.
-- 🌙 Fun fact: Some of my best coding sessions happen late at night, fueled by music and a love for solving puzzles.
+- 🥇 Built and deployed a full-stack **E-commerce application** from concept to completion.  
+- 🎨 Passionate about **UI/UX** and creating minimalist, modern designs.  
+- 🤝 Thrived in **Agile environments**, contributing to team success.  
+- 🌙 Fun fact: Some of my best coding sessions happen late at night, fueled by music and problem-solving.
 
 ---
 
 ## 🌐 Let's Connect!
-
-Feel free to reach out if you want to collaborate on a project or just have a chat!
 
 <p align="center">
   <a href="mailto:kishore.siripurapu1484@gmail.com">
