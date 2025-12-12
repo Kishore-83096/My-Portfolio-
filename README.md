@@ -57,9 +57,6 @@
   <a href="https://github.com/Kishore-83096/AI-Integrated-Multi-Platform-Microservices-Ecosystem">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=AI-Integrated-Multi-Platform-Microservices-Ecosystem&theme=tokyonight&hide_border=true" />
   </a>
-  
-  [![AI Microservices Demo](https://img.shields.io/badge/🎥_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=example)
-  [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-8A2BE2?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-microservices-demo.vercel.app)
 </div>
 
 <div align="left">
@@ -83,13 +80,13 @@
 
 <div align="center">
 
-| Project | Live Demo | Description |
-| :--- | :--- | :--- |
-| <a href="https://github.com/Kishore-83096/Zylo"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=Zylo&theme=tokyonight&hide_border=true" /> </a> | [![Live](https://img.shields.io/badge/🌐_Live-4CAF50?style=flat-square)](https://zylo-demo.vercel.app) | **Zylo** - A full-stack e-commerce platform with user authentication, product management, and shopping cart functionality |
-| <a href="https://github.com/Kishore-83096/Sign-Language-Recognition"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=Sign-Language-Recognition&theme=tokyonight&hide_border=true" /> </a> | [![Demo](https://img.shields.io/badge/🎬_Demo-FF9800?style=flat-square)](https://youtu.be/example2) | **Sign Language Recognition** - Computer vision project for real-time sign language interpretation |
-| <a href="https://github.com/Kishore-83096/react-django_OA_project"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=react-django_OA_project&theme=tokyonight&hide_border=true" /> </a> | [![Live](https://img.shields.io/badge/🌐_Live-4CAF50?style=flat-square)](https://oa-system.vercel.app) | **React-Django OA Project** - Office automation system with React frontend and Django backend |
-| <a href="https://github.com/Kishore-83096/Supermarket-Billing-Inventory-Management-System-Python-Tkinter-"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=Supermarket-Billing-Inventory-Management-System-Python-Tkinter-&theme=tokyonight&hide_border=true" /> </a> | [![Download](https://img.shields.io/badge/⬇️_Download-2196F3?style=flat-square)](https://github.com/Kishore-83096/Supermarket-Billing-Inventory-Management-System-Python-Tkinter-/releases) | **Supermarket Billing System** - Desktop application for inventory and billing management with Python Tkinter |
-| <a href="https://github.com/Kishore-83096/basic-python-atm-simulator"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=basic-python-atm-simulator&theme=tokyonight&hide_border=true" /> </a> | [![Try Online](https://img.shields.io/badge/💻_Try_Online-9C27B0?style=flat-square)](https://replit.com/@kishore1484/Python-ATM-Simulator) | **Python ATM Simulator** - Console-based banking simulation with user accounts and transaction history |
+| Project | Description |
+| :--- | :--- |
+| <a href="https://github.com/Kishore-83096/Zylo"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=Zylo&theme=tokyonight&hide_border=true" /> </a> | **Zylo** - A full-stack e-commerce platform with user authentication, product management, and shopping cart functionality |
+| <a href="https://github.com/Kishore-83096/indian-sign-language-recognition-model"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=indian-sign-language-recognition-model&theme=tokyonight&hide_border=true" /> </a> | **Indian Sign Language Recognition** - Computer vision project for real-time sign language interpretation |
+| <a href="https://github.com/Kishore-83096/react-django_OA_project"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=react-django_OA_project&theme=tokyonight&hide_border=true" /> </a> | **React-Django OA Project** - Office automation system with React frontend and Django backend |
+| <a href="https://github.com/Kishore-83096/Supermarket-Billing-Inventory-Management-System-Python-Tkinter-"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=Supermarket-Billing-Inventory-Management-System-Python-Tkinter-&theme=tokyonight&hide_border=true" /> </a> | **Supermarket Billing System** - Desktop application for inventory and billing management with Python Tkinter |
+| <a href="https://github.com/Kishore-83096/basic-python-atm-simulator"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kishore-83096&repo=basic-python-atm-simulator&theme=tokyonight&hide_border=true" /> </a> | **Python ATM Simulator** - Console-based banking simulation with user accounts and transaction history |
 
 </div>
 
@@ -100,10 +97,10 @@
 <div align="center">
   
 ### **Zylo - Full Stack E-commerce Platform**
-[![Zylo Preview](https://img.shields.io/badge/ZYLO_ECOMMERCE-8A2BE2?style=for-the-badge&logo=react&logoColor=white)](https://github.com/Kishore-83096/Zylo)
-  
+[![Zylo E-commerce](https://img.shields.io/badge/ZYLO_ECOMMERCE-8A2BE2?style=for-the-badge&logo=react&logoColor=white)](https://github.com/Kishore-83096/Zylo)
+
 <p align="center">
-  <img src="https://placehold.co/600x300/8A2BE2/FFFFFF?text=Zylo+E-commerce+Platform" alt="Zylo Preview" width="600"/>
+  <strong>🔗 Repository:</strong> <a href="https://github.com/Kishore-83096/Zylo">https://github.com/Kishore-83096/Zylo</a>
 </p>
 
 **Features:**
@@ -169,12 +166,6 @@
   </a>
   <a href="https://www.linkedin.com/in/kishore1484">
     <img src="https://img.shields.io/badge/👔_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://twitter.com/kishore1484">
-    <img src="https://img.shields.io/badge/🐦_Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
-  </a>
-  <a href="https://kishore-portfolio.vercel.app">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-8A2BE2?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
 </div>
 
