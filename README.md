@@ -43,11 +43,11 @@ Here are some of my favorite projects, showcasing my expertise:
 ## 💼 Professional Experience
 
 * **Associate Software Engineer @ Tech Mahindra (7 Months)**
-    *Designed and developed a cloud-ready Online Assessment Platform using Java, Spring Boot, and microservice architecture.
-    *Implemented secure, role-based workflows for exam creation, question management, and user exam attempts.
-    *Built RESTful APIs for question delivery, answer submission, result evaluation, and dashboard reporting.
-    *Developed automated evaluation and asynchronous email notification services for result processing.
-    *Worked with Spring Security, JWT, inter-service communication, and cloud deployment to deliver scalable, production-ready solutions.
+    * Designed and developed a cloud-ready Online Assessment Platform using Java, Spring Boot, and microservice architecture.
+    * Implemented secure, role-based workflows for exam creation, question management, and user exam attempts.
+    * Built RESTful APIs for question delivery, answer submission, result evaluation, and dashboard reporting.
+    * Developed automated evaluation and asynchronous email notification services for result processing.
+    * Worked with Spring Security, JWT, inter-service communication, and cloud deployment to deliver scalable, production-ready solutions.
 * **Full Stack Developer Intern (3 Months)**
     * Contributed to building and maintaining web applications from concept to deployment.
     * Implemented core features, resolved bugs, and built RESTful APIs.
