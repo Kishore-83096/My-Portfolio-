@@ -226,7 +226,7 @@ Details: `ANANTA_FRONTEND/frontend/README.md`
 - Auth: JWT (SimpleJWT)
 - Realtime: Django Channels + Redis (message service)
 - Storage: PostgreSQL (chat services), SQLite (auth/profile by default)
-- Media: Cloudinary (chat services)
+- Media: Cloudinary (avatar and display pictures services)
 - Frontend: React + Vite
 
 ## Notes
