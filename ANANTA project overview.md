@@ -225,7 +225,7 @@ Details: `ANANTA_FRONTEND/frontend/README.md`
 - Backend: Django 6.x, Django REST Framework
 - Auth: JWT (SimpleJWT)
 - Realtime: Django Channels + Redis (message service)
-- Storage: PostgreSQL (chat services), SQLite (auth/profile by default)
+- Storage: PostgreSQL (for all the services with different databases)
 - Media: Cloudinary (avatar and display pictures services)
 - Frontend: React + Vite
 
