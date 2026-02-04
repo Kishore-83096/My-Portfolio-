@@ -34,12 +34,13 @@ This keeps ownership clear, failure domains smaller, and scaling more predictabl
 ## Architecture Snapshot
 
 ```
-Frontend (React/Vite)
+ANANTA
    |
    |---> AUTH_MS (JWT, user identities)
    |---> PROFILE_MS (profile, address, cards)
    |---> CHAT_SERVICE / acac_ms (contacts, invites, room access)
    |---> CHAT_SERVICE / message_ms (rooms, messages, realtime)
+   |---> Frontend (React/Vite)
 ```
 
 ## AUTH_MS (Authentication Microservice)
