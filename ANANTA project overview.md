@@ -233,4 +233,4 @@ Details: `ANANTA_FRONTEND/frontend/README.md`
 
 - Each service is self-contained and can be run independently.
 - Environment variables are required for secrets, database, and service URLs.
-- See each service README for specific setup and environment configuration.
+
