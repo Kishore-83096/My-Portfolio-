@@ -13,7 +13,7 @@ I specialize in modern development, combining **Full-Stack Engineering** with ex
 Here are the key technologies and domains I work with:
 
 * **Frontend:** HTML, CSS, React Js
-* **Backend & Core:** Python, Django Framework, RESTful APIs, Object Oriented Programming, Data Structure, OBject Relational Mapping
+* **Backend & Core:** Python, Django Framework, RESTful APIs, Object Oriented Programming, Data Structure, OBject Relational Mapping,websockets,redis- chaneels
 * **Advanced Focus:** **Generative AI** (LLMs), **Microservices**
 * **Databases:** MySQL, SQL SERVER
 * **Tools & Platforms:** Git, GitHub, VSCode, Postman, Version Control
@@ -42,10 +42,12 @@ Here are some of my favorite projects, showcasing my expertise:
 
 ## 💼 Professional Experience
 
-* **Associate Software Engineer @ Tech Mahindra (6 Months)**
-    * Automated complex business processes using RPA, significantly improving operational efficiency.
-    * Collaborated in an Agile framework to design robust automation workflows.
-    * *Technologies:* UiPath, Python Automation, SQL, REST APIs
+* **Associate Software Engineer @ Tech Mahindra (7 Months)**
+    *Designed and developed a cloud-ready Online Assessment Platform using Java, Spring Boot, and microservice architecture.
+    *Implemented secure, role-based workflows for exam creation, question management, and user exam attempts.
+    *Built RESTful APIs for question delivery, answer submission, result evaluation, and dashboard reporting.
+    *Developed automated evaluation and asynchronous email notification services for result processing.
+    *Worked with Spring Security, JWT, inter-service communication, and cloud deployment to deliver scalable, production-ready solutions.
 * **Full Stack Developer Intern (3 Months)**
     * Contributed to building and maintaining web applications from concept to deployment.
     * Implemented core features, resolved bugs, and built RESTful APIs.
@@ -58,5 +60,4 @@ Here are some of my favorite projects, showcasing my expertise:
 I'm always open to discussing new projects, creative ideas, or opportunities. Feel free to reach out!
 
 * **Email:** kishore.siripurapu1484@gmail.com
-* **GitHub:** [Kishore-83096](https://github.com/Kishore-83096)
 * **LinkedIn:** [Jaya Kishore](https://www.linkedin.com/in/kishore1484)
