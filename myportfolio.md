@@ -13,7 +13,7 @@ I specialize in modern development, combining **Full-Stack Engineering** with ex
 Here are the key technologies and domains I work with:
 
 * **Frontend:** HTML, CSS, React Js
-* **Backend & Core:** Python, Django Framework, RESTful APIs, Object Oriented Programming, Data Structure, OBject Relational Mapping,websockets,redis- chaneels
+* **Backend & Core:** Python, Django Framework, RESTful APIs, Object Oriented Programming, Data Structure, Object Relational Mapping, WebSockets, Redis Channels
 * **Advanced Focus:** **Generative AI** (LLMs), **Microservices**
 * **Databases:** MySQL, SQL SERVER
 * **Tools & Platforms:** Git, GitHub, VSCode, Postman, Version Control
@@ -28,8 +28,11 @@ Here are some of my favorite projects, showcasing my expertise:
 
 * **[AI-Integrated Multi-Platform Microservices Ecosystem](https://github.com/Kishore-83096/AI-Integrated-Multi-Platform-Microservices-Ecosystem)**
     * **Description:** A distributed microservices ecosystem with centralized user identity, JWT-based authentication, and an AI Chatbot microservice (using Mistral-7B/TinyLlama) orchestrated with an E-commerce microservice.
-    * **Live Project:** https://anantafrontend.vercel.app/
     * **Tech Stack:** React.js, Django, Django REST Framework, JWT, llama-cpp-python, MySQL, LLMs
+
+* **ANANTA**
+    * **Description:** Real-time chat and identity platform built as independent, production-style microservices with a modern React UI. This README explains the application concept, the APIs, views, and model design for each backend service, plus how everything connects.
+    * **Live Project:** https://anantafrontend.vercel.app/
 
 ### **Classic & Full-Stack Projects**
 
@@ -51,7 +54,7 @@ Here are some of my favorite projects, showcasing my expertise:
     * Implemented secure, role-based workflows for exam creation, question management, and user exam attempts.
     * Built RESTful APIs for question delivery, answer submission, result evaluation, and dashboard reporting.
     * Developed automated evaluation and asynchronous email notification services for result processing.
-    * VWorked with Spring Security, JWT, inter-service communication, and cloud deployment to deliver scalable, production-ready solutions.
+    * Worked with Spring Security, JWT, inter-service communication, and cloud deployment to deliver scalable, production-ready solutions.
 * **Full Stack Developer Intern (3 Months)**
     * Contributed to building and maintaining web applications from concept to deployment.
     * Implemented core features, resolved bugs, and built RESTful APIs.
