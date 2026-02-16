@@ -31,7 +31,7 @@ Here are some of my favorite projects, showcasing my expertise:
     * **Tech Stack:** React.js, Django, Django REST Framework, JWT, llama-cpp-python, MySQL, LLMs
 
 * **ANANTA**
-    * **Description:** Real-time chat and identity platform built as independent, production-style microservices with a modern React UI. This README explains the application concept, the APIs, views, and model design for each backend service, plus how everything connects.
+    * **Description:** Real-time chat and identity platform built as independent, production-style microservices with a modern React UI. This**[README](https://github.com/Kishore-83096/)**explains the application concept, the APIs, views, and model design for each backend service, plus how everything connects.
     * **Live Project:** https://anantafrontend.vercel.app/
 
 ### **Classic & Full-Stack Projects**
