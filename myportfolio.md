@@ -12,11 +12,11 @@ I specialize in modern development, combining **Full-Stack Engineering** with ex
 
 Here are the key technologies and domains I work with:
 
-* **Frontend:** HTML, CSS, React Js
-* **Backend & Core:** Python, Django Framework, RESTful APIs, Object Oriented Programming, Data Structure, Object Relational Mapping, WebSockets, Redis Channels
+* **Frontend:** HTML, CSS, React Js, Angular
+* **Backend & Core:** Python, Django Framework, flask, RESTful APIs, Object Oriented Programming, Data Structure, Object Relational Mapping, WebSockets, Redis Channels
 * **Advanced Focus:** **Generative AI** (LLMs), **Microservices**
 * **Databases:** MySQL, SQL SERVER
-* **Tools & Platforms:** Git, GitHub, VSCode, Postman, Version Control
+* **Tools & Platforms:** Git, GitHub, VSCode, Postman, Version Control,Google cloud platform
 
 ---
 
