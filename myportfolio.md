@@ -20,7 +20,6 @@ Recently worked as **Freelance Backend Developer** for TURING on a microservice-
 |----------|---------|----------|-----------------|
 | **Associate Software Engineer** | Tech Mahindra | 7 Months | Designed cloud-ready Online Assessment Platform with Java & Spring Boot • Implemented secure role-based workflows • Built RESTful APIs for exam delivery & evaluation • Developed automated evaluation services • Deployed with Spring Security & JWT |
 | **Freelance Backend Developer (Django REST Framework)** | TURING | 2 Months | Developed microservice-based AI chat backend with DRF • Implemented tiered access control for LLM models (GPT-4 vs GPT-3.5) • Built scalable APIs for message storage & context-aware conversations • Designed production-grade API architecture |
-| **Full Stack Developer Intern** | - | 3 Months | Built web applications from concept to deployment • Implemented core features & resolved bugs • Developed RESTful APIs with Django, Python, JavaScript, MySQL |
 
 ---
 
