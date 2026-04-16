@@ -16,7 +16,7 @@ Here are the key technologies and domains I work with:
 * **Backend & Core:** Python, Django Framework, flask, RESTful APIs, Object Oriented Programming, Data Structure, Object Relational Mapping, WebSockets, Redis Channels
 * **Advanced Focus:** **Generative AI** (LLMs), **Microservices**
 * **Databases:** MySQL, SQL SERVER
-* **Tools & Platforms:** Git, GitHub, VSCode, Postman, Version Control,Google cloud platform
+* **Tools & Platforms:** Git, GitHub, VSCode, Postman, Docker, Version Control,Google cloud platform
 
 ---
 
