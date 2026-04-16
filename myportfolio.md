@@ -1,71 +1,76 @@
-# Hi 👋, I'm Jaya Kishore!
+#  Jaya Kishore
 
-### 💻 Full Stack Developer | 🚀 Django Enthusiast | 🤖 Automation Explorer
-
-I build **robust, user-centric web applications** and explore the frontiers of **automation, AI, and microservices** architecture.
+**Software Developer | Full Stack Engineer | Microservices & AI Enthusiast**
 
 ---
 
-## 🛠️ Tech Stack & Expertise
+##  About Me
 
-I specialize in modern development, combining **Full-Stack Engineering** with expertise in **Generative AI, Microservices Architecture**, and **Robotic Process Automation (RPA)**.
+Experienced **Software Developer** with proven expertise in **Python, Django REST Framework**, and **React.js** (Vite). Specialized in building **scalable, production-ready APIs**, designing **microservice architecture**, and developing **clean, maintainable code**. Strong foundation in **cloud deployment, REST architecture, and modern development practices**.
 
-Here are the key technologies and domains I work with:
+Recently worked as **Freelance Backend Developer** for TURING on a microservice-based AI chat platform, designing secure authentication systems and implementing LLM-based conversational APIs. Previously, contributed to enterprise-scale projects at **Tech Mahindra** building online assessment platforms with **Spring Boot** and microservice patterns.
 
-* **Frontend:** HTML, CSS, React Js, Angular
-* **Backend & Core:** Python, Django Framework, flask, RESTful APIs, Object Oriented Programming, Data Structure, Object Relational Mapping, WebSockets, Redis Channels
-* **Advanced Focus:** **Generative AI** (LLMs), **Microservices**
-* **Databases:** MySQL, SQL SERVER
-* **Tools & Platforms:** Git, GitHub, VSCode, Postman, Docker, Version Control,Google cloud platform
+**Passionate learner** actively exploring **Generative AI** and seeking opportunities to contribute to high-impact engineering teams that value **clean code, system design excellence, and continuous innovation**.
 
 ---
 
-## ✨ Django Projects(Full Stack)
+##  Professional Experience
 
-Here are some of my favorite projects, showcasing my expertise:
-
-### **AI & Microservices Projects**
-
-* **[AI-Integrated Multi-Platform Microservices Ecosystem](https://github.com/Kishore-83096/AI-Integrated-Multi-Platform-Microservices-Ecosystem)**
-    * **Description:** A distributed microservices ecosystem with centralized user identity, JWT-based authentication, and an AI Chatbot microservice (using Mistral-7B/TinyLlama) orchestrated with an E-commerce microservice.
-    * **Tech Stack:** React.js, Django, Django REST Framework, JWT, llama-cpp-python, MySQL, LLMs
-
-* **ANANTA**
-    * **Description:** Real-time chat and identity platform built as independent, production-style microservices with a modern React UI. This [README](https://github.com/Kishore-83096/My-Portfolio-/blob/main/ANANTA%20project%20overview.md) explains the application concept, the APIs, views, and model design for each backend service, plus how everything connects.
-    * **Live Project:** https://anantafrontend.vercel.app/
-
-### **Flask and Angular Full-Stack Projects**
-
-* **KOTS Rental Platform (Angular + Flask)**  [README](http://github.com/Kishore-83096/kots/blob/main/README.md)
-    * **Description:** Role-based rental management application where users discover/book properties, admins manage buildings/towers/flats/bookings, and master users manage admin accounts.
-    * **[Live Project](https://kotsfrontend.onrender.com/home)**
-   
-* **[Zylo](https://github.com/Kishore-83096/Zylo)** - A full-stack e-commerce platform with user authentication, product management, and shopping cart functionality.
-* **[Indian Sign Language Recognition](https://github.com/Kishore-83096/indian-sign-language-recognition-model)** - Computer vision project for real-time sign language interpretation.
-* **[React-Django OA Project](https://github.com/Kishore-83096/react-django_OA_project)** - Online assessment Platform with React frontend and Django backend.
-* **[Supermarket Billing Inventory Management System](https://github.com/Kishore-83096/Supermarket-Billing-Inventory-Management-System-Python-Tkinter-)** - Application for inventory and billing management with Python Tkinter.
-* **[Python ATM Simulator](https://github.com/Kishore-83096/basic-python-atm-simulator)** - Console-based banking simulation with user accounts and transaction history.
+| Position | Company | Duration | Key Highlights |
+|----------|---------|----------|-----------------|
+| **Associate Software Engineer** | Tech Mahindra | 7 Months | Designed cloud-ready Online Assessment Platform with Java & Spring Boot • Implemented secure role-based workflows • Built RESTful APIs for exam delivery & evaluation • Developed automated evaluation services • Deployed with Spring Security & JWT |
+| **Freelance Backend Developer (Django REST Framework)** | TURING | 2 Months | Developed microservice-based AI chat backend with DRF • Implemented tiered access control for LLM models (GPT-4 vs GPT-3.5) • Built scalable APIs for message storage & context-aware conversations • Designed production-grade API architecture |
+| **Full Stack Developer Intern** | - | 3 Months | Built web applications from concept to deployment • Implemented core features & resolved bugs • Developed RESTful APIs with Django, Python, JavaScript, MySQL |
 
 ---
 
-## 💼 Professional Experience
+##  Tech Stack & Expertise
 
-* **Associate Software Engineer @ Tech Mahindra (7 Months)**
-    * Designed and developed a cloud-ready Online Assessment Platform using Java, Spring Boot, and microservice architecture.
-    * Implemented secure, role-based workflows for exam creation, question management, and user exam attempts.
-    * Built RESTful APIs for question delivery, answer submission, result evaluation, and dashboard reporting.
-    * Developed automated evaluation and asynchronous email notification services for result processing.
-    * Worked with Spring Security, JWT, inter-service communication, and cloud deployment to deliver scalable, production-ready solutions.
-* **Full Stack Developer Intern (3 Months)**
-    * Contributed to building and maintaining web applications from concept to deployment.
-    * Implemented core features, resolved bugs, and built RESTful APIs.
-    * *Technologies:* Django, Python, JavaScript, MySQL
+| Category | Technologies |
+|----------|---------------|
+| **Frontend** | HTML, CSS, React.js, Angular |
+| **Backend & Core** | Python, Django, Flask, RESTful APIs, OOP, Data Structures, ORM, WebSockets, Redis Channels |
+| **Advanced Focus** | Generative AI (LLMs), Microservices Architecture, RPA |
+| **Databases** | MySQL, SQL Server |
+| **Tools & Platforms** | Git, GitHub, VSCode, Postman, Docker, Version Control |
+| **Cloud** | Google Cloud Platform |
 
 ---
 
-## 🌐 Let's Connect!
+##  Featured Projects
 
-I'm always open to discussing new projects, creative ideas, or opportunities. Feel free to reach out!
+| Project | Description | Tech Stack | Links |
+|---------|-------------|-----------|-------|
+| **ANANTA** | Real-time chat and identity platform built as independent, production-style microservices with modern React UI. Comprehensive documentation on APIs, views, and model design | React.js, Django REST Framework, Microservices, POSTGRES SQL, WEBSOCKETS| [Live](https://anantafrontend.vercel.app/) / [Docs](https://github.com/Kishore-83096/My-Portfolio-/blob/main/ANANTA%20project%20overview.md) |
+| **KOTS Rental Platform** | Role-based rental management application with property discovery/booking, admin management, and master user controls | Angular, Flask, Role-based Access,REST API,POSTGRES SQL, Caching | [Live](https://kotsfrontend.onrender.com/home) / [README](https://github.com/Kishore-83096/kots/blob/main/README.md) |
+| **AI-Integrated Multi-Platform Microservices Ecosystem** | Distributed microservices ecosystem with centralized user identity, JWT-based authentication, and AI Chatbot microservice (Mistral-7B/TinyLlama) orchestrated with E-commerce service | React.js, Django REST Framework, JWT, llama-cpp-python, MySQL, LLMs | [GitHub](https://github.com/Kishore-83096/AI-Integrated-Multi-Platform-Microservices-Ecosystem) |
+| **React-Django Online Assessment Platform** | Online assessment platform with exam creation, question management, and user attempt tracking | React.js, DJANGO REST FRAMWORK, MySQL | [GitHub](https://github.com/Kishore-83096/react-django_OA_project) |
+| **Zylo** | Full-stack e-commerce platform with user authentication, product management, and shopping cart functionality | HTML, CSS, Django, MySQL | [GitHub](https://github.com/Kishore-83096/Zylo) |
+| **Indian Sign Language Recognition** | Computer vision project for real-time sign language interpretation | Python, Computer Vision, ML | [GitHub](https://github.com/Kishore-83096/indian-sign-language-recognition-model) |
+| **Supermarket Billing & Inventory System** | Application for inventory and billing management with transaction tracking | Python, Tkinter, MYSQL | [GitHub](https://github.com/Kishore-83096/Supermarket-Billing-Inventory-Management-System-Python-Tkinter-) |
+| **Python ATM Simulator** | Console-based banking simulation with user accounts and transaction history | Python, Tkinter, OOP,MYSQL | [GitHub](https://github.com/Kishore-83096/basic-python-atm-simulator) |
 
-* **Email:** kishore.siripurapu1484@gmail.com
-* **LinkedIn:** [Jaya Kishore](https://www.linkedin.com/in/kishore1484)
+---
+
+##  Academic Background
+
+| Qualification | Institution | Board / University | Score | Year |
+|---------------|-------------|-------------------|-------|------|
+| **B.Tech (Computer Science & Engineering)** | Raghu Institute of Technology | Jawaharlal Nehru Technological University, Kakinada | 68% | 2022 |
+| **Intermediate (MPC)** | Narayana Junior College | Board of Intermediate Education, Andhra Pradesh | 81% | 2017 |
+| **SSC (10th)** | V.T. High School | State Board of Secondary Education | 77% | 2015 |
+
+---
+
+##  Get In Touch
+
+I'm always open to discussing new projects, interesting opportunities, and collaborations!
+
+- **Email:** [kishore.siripurapu1484@gmail.com](mailto:kishore.siripurapu1484@gmail.com)
+- **Phone:** [7032057690](tel:7032057690)
+- **LinkedIn:** [Jaya Kishore](https://www.linkedin.com/in/kishore1484)
+- **GitHub:** [Kishore-83096](https://github.com/Kishore-83096)
+
+---
+
+*Last Updated: April 16, 2026*
