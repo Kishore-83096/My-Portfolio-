@@ -20,7 +20,7 @@ Here are the key technologies and domains I work with:
 
 ---
 
-## ✨ Featured Projects
+## ✨ Django Projects(Full Stack)
 
 Here are some of my favorite projects, showcasing my expertise:
 
@@ -34,7 +34,7 @@ Here are some of my favorite projects, showcasing my expertise:
     * **Description:** Real-time chat and identity platform built as independent, production-style microservices with a modern React UI. This [README](https://github.com/Kishore-83096/My-Portfolio-/blob/main/ANANTA%20project%20overview.md) explains the application concept, the APIs, views, and model design for each backend service, plus how everything connects.
     * **Live Project:** https://anantafrontend.vercel.app/
 
-### **Classic & Full-Stack Projects**
+### **Flask and Angular Full-Stack Projects**
 
 * **KOTS Rental Platform (Angular + Flask)**  [README](http://github.com/Kishore-83096/kots/blob/main/README.md)
     * **Description:** Role-based rental management application where users discover/book properties, admins manage buildings/towers/flats/bookings, and master users manage admin accounts.
