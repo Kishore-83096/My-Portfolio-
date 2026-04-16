@@ -38,7 +38,7 @@ Here are some of my favorite projects, showcasing my expertise:
 
 * **KOTS Rental Platform (Angular + Flask)**  [README](http://github.com/Kishore-83096/kots/blob/main/README.md)
     * **Description:** Role-based rental management application where users discover/book properties, admins manage buildings/towers/flats/bookings, and master users manage admin accounts.
-    * **[Live Project](https://kots-frontend-445482244619.asia-south1.run.app/)**
+    * **[Live Project](https://kotsfrontend.onrender.com/home)**
    
 * **[Zylo](https://github.com/Kishore-83096/Zylo)** - A full-stack e-commerce platform with user authentication, product management, and shopping cart functionality.
 * **[Indian Sign Language Recognition](https://github.com/Kishore-83096/indian-sign-language-recognition-model)** - Computer vision project for real-time sign language interpretation.
