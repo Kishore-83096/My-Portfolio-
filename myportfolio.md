@@ -36,7 +36,7 @@ Here are some of my favorite projects, showcasing my expertise:
 
 ### **Classic & Full-Stack Projects**
 
-* **KOTS Rental Platform (Angular + Flask)**
+* **KOTS Rental Platform (Angular + Flask)**  [README](http://github.com/Kishore-83096/kots/blob/main/README.md)
     * **Description:** Role-based rental management application where users discover/book properties, admins manage buildings/towers/flats/bookings, and master users manage admin accounts.
     * **[Live Project](https://kots-frontend-445482244619.asia-south1.run.app/)**
    
