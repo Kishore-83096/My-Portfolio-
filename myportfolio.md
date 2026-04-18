@@ -6,7 +6,7 @@
 
 ##  About Me
 
-Experienced **Software Developer** with proven expertise in **Python, Django REST Framework**, and **React.js** (Vite). Specialized in building **scalable, production-ready APIs**, designing **microservice architecture**, and developing **clean, maintainable code**. Strong foundation in **cloud deployment, REST architecture, and modern development practices**.
+Entry level **Software Developer** with proven expertise in **Python, Django REST Framework**, and **React.js** (Vite). Specialized in building **scalable, production-ready APIs**, designing **microservice architecture**, and developing **clean, maintainable code**. Strong foundation in **cloud deployment, REST architecture, and modern development practices**.
 
 Recently worked as **Freelance Backend Developer** for TURING on a microservice-based AI chat platform, designing secure authentication systems and implementing LLM-based conversational APIs. Previously, contributed to enterprise-scale projects at **Tech Mahindra** building online assessment platforms with **Spring Boot** and microservice patterns.
 
