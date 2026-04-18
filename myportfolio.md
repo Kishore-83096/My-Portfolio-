@@ -6,9 +6,9 @@
 
 ##  About Me
 
-Entry level **Software Developer** with proven expertise in **Python, Flask, Django REST Framework**, and **React.js** (Vite). Specialized in building **scalable, production-ready APIs**, designing **microservice architecture**, and developing **clean, maintainable code**. Strong foundation in **cloud deployment, REST architecture, and modern development practices**.
+Experienced **Software Developer** with proven expertise in **Python, Django REST Framework**, and **React.js** (Vite). Specialized in building **scalable, production-ready APIs**, designing **microservice architecture**, and developing **clean, maintainable code**. Strong foundation in **cloud deployment, REST architecture, and modern development practices**.
 
-Recently worked as **Freelance Backend Developer** for TURING on a microservice-based AI chat platform, designing secure authentication systems and implementing LLM-based conversational APIs. Previously, contributed to enterprise-scale projects at **Tech Mahindra** building online assessment platforms with **Spring Boot** and microservice patterns.
+Recently worked as **Freelance AI Data & Backend Developer** for TURING on AI-related projects, focusing on training data preparation, validation, and dataset management for modern AI systems. Previously, contributed to enterprise-scale projects at **Tech Mahindra** building online assessment platforms with **Python, Flask**, and microservice architecture.
 
 **Passionate learner** actively exploring **Generative AI** and seeking opportunities to contribute to high-impact engineering teams that value **clean code, system design excellence, and continuous innovation**.
 
@@ -18,8 +18,8 @@ Recently worked as **Freelance Backend Developer** for TURING on a microservice-
 
 | Position | Company | Duration | Key Highlights |
 |----------|---------|----------|-----------------|
-| **Associate Software Engineer** | Tech Mahindra | 7 Months | Designed cloud-ready Online Assessment Platform with Java & Spring Boot • Implemented secure role-based workflows • Built RESTful APIs for exam delivery & evaluation • Developed automated evaluation services • Deployed with Spring Security & JWT |
-| **Freelance Backend Developer (Django REST Framework)** | TURING | 2 Months | Developed microservice-based AI chat backend with DRF • Implemented tiered access control for LLM models (GPT-4 vs GPT-3.5) • Built scalable APIs for message storage & context-aware conversations • Designed production-grade API architecture |
+| **Associate Software Engineer** | Tech Mahindra | Sep 2022 - Apr 2023 | Engineered a cloud-ready Online Assessment Platform using Python and Flask, leveraging a microservices-based architecture to ensure scalability and maintainability • Designed and implemented secure, role-based workflows for exam creation, question management, and candidate assessment processes • Developed robust RESTful APIs for dynamic question delivery, answer submission, automated evaluation, and real-time dashboard reporting • Built asynchronous processing pipelines for result computation and integrated automated email notification services to enhance user communication • Implemented authentication and authorization mechanisms using token-based security (JWT), ensuring secure inter-service communication • Collaborated in a production-grade environment, contributing to deployment pipelines and cloud infrastructure to deliver reliable, high-performance applications |
+| **Freelance AI Data & Backend Developer** | TURING | Aug 2025 - Nov 2025 | Worked on AI-related projects focusing on preparing and validating training data for modern AI systems • Handled large datasets ensuring data quality through accuracy, consistency, and structure validation • Created and managed JSON-based tasks for function-calling workflows used in AI models • Used Python and JavaScript to automate data processing and improve workflow efficiency • Wrote SQL queries to extract, clean, and manage data from databases • Collaborated with AI teams following best practices for building datasets suitable for LLMs and agent-based systems • Checked and corrected data issues to maintain high-quality standards for AI training • Gained hands-on experience in prompt structuring and understanding how AI models interpret structured inputs |
 
 ---
 
@@ -28,9 +28,10 @@ Recently worked as **Freelance Backend Developer** for TURING on a microservice-
 | Category | Technologies |
 |----------|---------------|
 | **Frontend** | HTML, CSS, React.js, Angular |
-| **Backend & Core** | Python, Django, Flask, RESTful APIs, OOP, Data Structures, ORM, WebSockets, Redis Channels |
-| **Advanced Focus** | Generative AI (LLMs), Microservices Architecture, RPA |
-| **Databases** | MySQL, SQL Server |
+| **Backend & Core** | Python, JavaScript, Django, Flask, RESTful APIs, OOP, Data Structures, ORM, WebSockets, Redis Channels |
+| **Advanced Focus** | Generative AI (LLMs), Microservices Architecture, Data Validation, Prompt Engineering, AI Dataset Preparation, Workflow Automation, RPA |
+| **Databases** | MySQL, SQL Server, SQL |
+| **Data & AI** | JSON, Data Validation, Dataset Management, Prompt Structuring |
 | **Tools & Platforms** | Git, GitHub, VSCode, Postman, Docker, Version Control |
 | **Cloud** | Google Cloud Platform |
 
