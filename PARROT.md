@@ -1,4 +1,16 @@
 # Parrot - Unified Communication Platform
+Parrot chat.png
+Add files via upload
+3 minutes ago
+Parrot.png
+Add files via upload
+18 minutes ago
+parrot login.png
+
+![Portfolio Preview](images/Parrot.png)
+![Portfolio Preview](images/Parrotchat.png)
+![Portfolio Preview](images/Parrotlogin.png)
+
 
 A comprehensive multi-service architecture for user management, real-time messaging, and a modern frontend interface. Parrot enables secure authentication, profile management, contact management, and real-time message delivery across web.
 
