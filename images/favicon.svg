@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#f5efff"/>
+      <stop offset="1" stop-color="#eaf1ff"/>
+    </linearGradient>
+    <linearGradient id="body" x1="28" y1="11" x2="43" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8f52ff"/>
+      <stop offset="0.55" stop-color="#7c3cff"/>
+      <stop offset="1" stop-color="#4e6cff"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="27" y1="28" x2="41" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45a0ff"/>
+      <stop offset="1" stop-color="#2274ea"/>
+    </linearGradient>
+    <linearGradient id="wing-green" x1="25" y1="40" x2="42" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1cc76d"/>
+      <stop offset="1" stop-color="#13a85a"/>
+    </linearGradient>
+    <linearGradient id="crest" x1="18" y1="8" x2="34" y2="25" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff4f88"/>
+      <stop offset="1" stop-color="#ef3d55"/>
+    </linearGradient>
+    <linearGradient id="beak" x1="45" y1="17" x2="55" y2="31" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd158"/>
+      <stop offset="1" stop-color="#f5ad33"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="13" y="5" width="47" height="58" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="3.4" flood-color="#5f34a7" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="url(#bg)"/>
+  <rect x="4.5" y="4.5" width="55" height="55" rx="14.5" stroke="#ffffff" stroke-opacity="0.92"/>
+  <path d="M10 18.5C18.8 7.7 36.7 3.6 53.4 10.3" stroke="#7c3cff" stroke-linecap="round" stroke-width="1.1" opacity="0.12"/>
+  <path d="M48.3 7.1c0 9.4 3.9 15.4 10.2 19.9" stroke="#7c3cff" stroke-linecap="round" stroke-width="1.1" opacity="0.1"/>
+  <path d="M20.2 8.8c-4.4 5.1-7.2 10.6-8.4 16.5" stroke="#7c3cff" stroke-linecap="round" stroke-width="1.1" opacity="0.09"/>
+
+  <g filter="url(#soft-shadow)">
+    <path d="M31.8 14.3C28.5 12.9 25.5 10.4 23.7 6.9c-0.2 4.1 1.6 7.5 5.1 10.1-4.1 0.3-7.4-1.2-10.2-4.1 0.8 4.4 3.7 7.4 8.4 8.8-3.6 1.7-7 2.1-10.2 1.3 2.4 3.1 6.8 4.2 13.4 3.1l3.2-5.8-1.6-6Z" fill="url(#crest)"/>
+
+    <path d="M36.6 10.7c4.7 0 8.8 3 10.2 7.3 0.7 2.2 0.6 4.5-0.4 6.8 2.8 4.5 4 9.3 3.2 14.1-0.9 6.2-4.9 10.8-10.1 12.1l-5 1.2c-1.2 3.2-3 5.6-5.3 7.2-0.8 0.6-2-0.1-1.7-1.2l2.7-10.6c-4.1-3.4-5.8-8.5-4.7-14.4 0.8-4.4 2.6-8.8 5.5-13.3 1.5-2.4 1.7-5.1 3.3-7.1 0.6-0.8 1.3-1.5 2.3-2.1Z" fill="url(#body)"/>
+
+    <path d="M29.8 45.1 22.6 59c-0.4 0.8-1.7 0.5-1.6-0.4l2.5-16.6 6.3 3.1Z" fill="#18b963"/>
+    <path d="M35 47.6 29.4 59.1c-0.4 0.8-1.6 0.5-1.5-0.4l1.3-12.7 5.8 1.6Z" fill="#7351ec"/>
+
+    <path d="M37.7 14.6c4.8 0 8.4 3.6 8.4 8.3 0 1.1-0.2 2.1-0.6 3.1-2 1.3-4.3 1.7-6.7 1.1-4.3-1.1-7.2-5-6.8-9.2 1.4-2 3.3-3.3 5.7-3.3Z" fill="#ffffff"/>
+
+    <path d="M44.9 18.8c4.4 0.3 8.1 3.6 9.3 8.4-1.9 1.8-4.3 2.6-7.1 2.3-0.5-4.2-1.2-7.8-2.2-10.7Z" fill="url(#beak)"/>
+    <path d="M49.1 27.1c1.3 0.2 3 0.2 5.1 0.1-0.4 2.6-1.7 4.6-4.1 6.2-0.4-2.2-0.7-4.3-1-6.3Z" fill="#f19b2d"/>
+    <path d="M48.8 27.4h5.1" stroke="#bd730d" stroke-linecap="round" stroke-opacity="0.42" stroke-width="1"/>
+
+    <path d="M31 28.5c5.6-4.7 12.7-1.7 14.2 5.1 1.4 6.1-3.9 12.4-12.5 15.3-3.8 1.3-7.7 2-11.8 2.1 0.3-7.7 3.6-16.7 10.1-22.5Z" fill="url(#wing)"/>
+    <path d="M21.8 45.6c6.8-0.8 14.9-4.7 21.8-10.2-0.2 5.9-4.1 11.5-10.4 14.6-4.5 2.2-8.6 3.7-12.3 4.4l0.9-8.8Z" fill="url(#wing-green)"/>
+    <path d="M25.6 45.9c2.7-1.7 5.4-3.3 8.1-5" stroke="#80e2b1" stroke-linecap="round" stroke-opacity="0.7" stroke-width="1.4"/>
+    <path d="M23.4 51.2c3.1-1.5 5.8-3.4 8.2-5.8" stroke="#80e2b1" stroke-linecap="round" stroke-opacity="0.55" stroke-width="1.3"/>
+    <path d="M30.5 31.3c3.2-2.6 7.8-3.1 11-1" stroke="#ffffff" stroke-linecap="round" stroke-opacity="0.72" stroke-width="1.8"/>
+    <path d="M28.2 35.9c2.2-2 4.5-3.1 7.1-3.4" stroke="#ffffff" stroke-linecap="round" stroke-opacity="0.56" stroke-width="1.4"/>
+
+    <circle cx="40.7" cy="18.7" r="2.1" fill="#201b2b"/>
+    <circle cx="41.4" cy="17.9" r="0.7" fill="#ffffff"/>
+    <path d="M32.7 21.2c-1.1 1.8-1.9 3.9-2.5 6.2" stroke="#ffffff" stroke-linecap="round" stroke-opacity="0.6" stroke-width="1.8"/>
+    <path d="M37.7 50.5c1.9-1.7 3.9-1.7 5.8 0.1" stroke="#4d49d8" stroke-linecap="round" stroke-width="2"/>
+    <path d="M41.1 50.1c0.1 1.7-0.4 3-1.6 4" stroke="#4d49d8" stroke-linecap="round" stroke-width="1.8"/>
+  </g>
+</svg>
