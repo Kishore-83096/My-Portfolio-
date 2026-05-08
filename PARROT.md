@@ -31,18 +31,18 @@ Explore the intuitive and modern user interface of Parrot:
 
 ## 📋 Table of Contents
 
-- [Screenshots](#screenshots)
-- [Project Overview](#project-overview)
+- [Screenshots](#-screenshots)
+- [Project Overview](#-project-overview)
 - [Architecture](#architecture)
-- [Services](#services)
-- [Technology Stack](#technology-stack)
-- [Module Breakdown](#module-breakdown)
-- [Installation & Setup](#installation--setup)
+- [Services](#-services)
+- [Technology Stack](#-technology-stack)
+- [Module Breakdown](#-module-breakdown)
+- [Installation & Setup](#-installation--setup)
 - [Running the Services](#running-the-services)
-- [Deployment](#deployment)
-- [API Documentation](#api-documentation)
-- [Security](#security)
-- [Contributing](#contributing)
+- [Deployment](#-deployment)
+- [API Documentation](#-api-documentation)
+- [Security](#-security)
+- [Contributing](#-contributing)
 
 ---
 
@@ -71,104 +71,13 @@ Explore the intuitive and modern user interface of Parrot:
 
 ---
 
+<a id="architecture"></a>
+
 ## 🏗️ Architecture
 
 ### System Architecture Diagram
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────┐
-│                                  CLIENT LAYER                                      │
-│  ┌─────────────────────────────────────────────────────────────────────────────┐   │
-│  │                      React Frontend (TypeScript + Vite)                     │   │
-│  │                      🎨 Port: 5173 (dev) | 80 (prod)                        │   │
-│  │  ┌──────────────────────┐    ┌──────────────────────┐                       │   │
-│  │  │   Parent App         │    │   Messenger App      │                       │   │
-│  │  │  • Auth Pages        │    │  • Chat Interface    │                       │   │
-│  │  │  • Profile Mgmt      │    │  • Message Display   │                       │   │
-│  │  │  • Contact List      │    │  • Real-time Updates │                       │   │
-│  │  └──────────────────────┘    └──────────────────────┘                       │   │
-│  └─────────────┬──────────────────────────┬──────────────────────────────────  ┘   │
-└────────────────┼──────────────────────────┼──────────────────────────────────  ────┘
-                 │ REST API                 │ REST + WebSocket
-                 │ (Axios/TanStack Query)   │ (Real-time Connection)
-                 │                          │
-┌────────────────┼──────────────────────────┼──────────────────────────────────────┐
-│  API LAYER     │                          │                                      │
-│  ┌─────────────▼──────────┐   ┌──────────▼──────────────┐                        │
-│  │  Parent Service        │   │  Messenger Service      │                        │
-│  │  Flask + REST          │   │  Django + Channels      │                        │
-│  │  🔵 Port: 5000         │   │  🟣 Port: 8000          │                       │
-│  ├────────────────────────┤   ├─────────────────────────┤                        │
-│  │ ✓ User Registration    │   │ ✓ WebSocket Handler     │                       │
-│  │ ✓ JWT Authentication   │   │ ✓ Message Broker        │                       │
-│  │ ✓ Profile Management   │   │ ✓ Room Management       │                       │
-│  │ ✓ Contact Management   │   │ ✓ Real-time Sync        │                       │
-│  │ ✓ Image Upload         │   │ ✓ Message Persistence   │                       │
-│  │ ✓ Service Authorization│   │ ✓ Participant Tracking  │                       │
-│  └────────────┬───────────┘   └──────────┬──────────────┘                        │
-│               │                          │                                       │
-│               │ Internal Service Token   │ HTTP (Service-to-Service)             │
-│               │◄─────────────────────────┤                                       │
-└───────────────┼──────────────────────────┼────────────────────────────────────── ┘
-                │                          │
-┌───────────────┼──────────────────────────┼─────────────────────────────────── ───┐
-│  DATA LAYER   │                          │                                       │
-│  ┌────────────▼────────────┐   ┌────────▼────────────────── ┐                    │
-│  │  PostgreSQL Database    │   │  PostgreSQL + Redis        │                    │
-│  │  🗄️  User Data         │    │  🗄️  Message Data         │                    │
-│  │  🗄️  Profile Data      │    │  📢 Message Queue         │                    │
-│  │  🗄️  Contact Data      │    │  🔴 Session Store         │                    │
-│  │  🗄️  Auth Tokens       │    │  🔴 Real-time Cache       │                    │
-│  │  🗄️  Cloudinary Links  │    │  🔴 Room State            │                    │
-│  └────────────────────────┘    └────────────────────────────┘                    │
-│                                                                                  │
-│                                                                                  │
-└──────────────────────────────────────────────────────────────────────────────────┘
-
-┌──────────────────────────────────────────────────────────────────────────────────┐
-│  MESSAGE FLOW & COMMUNICATION PATTERNS                                           │
-├──────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                  │
-│  AUTHENTICATION FLOW:                                                            │
-│  Frontend → Parent Service (POST /auth/login)                                    │
-│  ← Access Token + Refresh Token                                                  │
-│  ← User Profile Data                                                             │
-│                                                                                  │
-│  MESSAGING FLOW:                                                                 │
-│  Frontend → Messenger Service (WebSocket /ws/chat/<room_id>/)                    │
-│  ← Real-time Message Updates                                                     │
-│  ← Participant Join/Leave Events                                                 │
-│  ← Online Status Changes                                                         │
-│                                                                                  │
-│  INTER-SERVICE COMMUNICATION:                                                    │
-│  Messenger → Parent (X-Internal-Service-Token header)                            │
-│  → Validate messaging pair authorization                                         │
-│  ← User profile and permission details                                           │
-│                                                                                  │
-└──────────────────────────────────────────────────────────────────────────────────┘
-
-┌──────────────────────────────────────────────────────────────────────────────────┐
-│  DEPLOYMENT TOPOLOGY (Production)                                                │
-├──────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                  │
-│                                                                                  │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐                            │
-│  │ React App    │  │ Parent API   │  │ Messenger    │                            │
-│  │ CDN Cache    │  │ Gunicorn     │  │ Daphne ASGI  │                            │
-│  │ Static Files │  │ 4 Workers    │  │ Auto-scaling │                            │
-│  └──────────────┘  └──────────────┘  └──────────────┘                            │
-│         │                    │                    │                              │
-│         └────────┬───────────┴────────┬──────────┘                               │
-│                  │                    │                                          │ 
-│           ┌──────▼──────┐      ┌──────▼──────┐                                   │
-│           │ PostgreSQL   │      │ Redis       │                                  │
-│           │ Cluster      │      │ Cluster     │                                  │
-│           │ (Primary +   │      │ (Master +   │                                  │
-│           │  Replicas)   │      │  Replicas)  │                                  │
-│           └──────────────┘      └─────────────┘                                  │
-│                                                                                  │
-└──────────────────────────────────────────────────────────────────────────────────┘
-```
+![Parrot System Architecture](images/productarhietecture.png)
 
 ### Key Architecture Points
 
@@ -593,6 +502,8 @@ npm run build
 ```
 
 ---
+
+<a id="running-the-services"></a>
 
 ## ▶️ Running the Services
 
