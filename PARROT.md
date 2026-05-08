@@ -1,4 +1,4 @@
-# 🦜 Parrot - Unified Communication Platform
+# Parrot - Unified Communication Platform
 
 > **One spot for casual communication** 
 >
