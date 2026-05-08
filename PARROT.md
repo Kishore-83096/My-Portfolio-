@@ -1,16 +1,11 @@
 # Parrot - Unified Communication Platform
-Parrot chat.png
-Add files via upload
-3 minutes ago
-Parrot.png
-Add files via upload
-18 minutes ago
-parrot login.png
 
-![Portfolio Preview](images/Parrot.png)
-![Portfolio Preview](images/Parrotchat.png)
-![Portfolio Preview](images/Parrotlogin.png)
-![Portfolio Preview](images/Parrotchatroom.png)
+<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+  <img src="images/Parrot.png" alt="Portfolio Preview" style="width: 180px; height: auto;" />
+  <img src="images/Parrotchat.png" alt="Portfolio Preview" style="width: 180px; height: auto;" />
+  <img src="images/Parrotlogin.png" alt="Portfolio Preview" style="width: 180px; height: auto;" />
+  <img src="images/Parrotchatroom.png" alt="Portfolio Preview" style="width: 180px; height: auto;" />
+</div>
 
 
 
