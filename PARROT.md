@@ -134,9 +134,7 @@ A comprehensive multi-service architecture for user management, real-time messag
 │  DEPLOYMENT TOPOLOGY (Production)                                                │
 ├──────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                  │
-│  Load Balancer (Nginx/CloudFlare)                                                │
-│         │                    │                    │                              │
-│         ▼                    ▼                    ▼                              │
+│                                                                                  │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐                            │
 │  │ React App    │  │ Parent API   │  │ Messenger    │                            │
 │  │ CDN Cache    │  │ Gunicorn     │  │ Daphne ASGI  │                            │
