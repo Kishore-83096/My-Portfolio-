@@ -10,7 +10,7 @@ A comprehensive multi-service architecture for user management, real-time messag
 |---------|-----------|-----------|
 | 🎨 **React Frontend** | [Live App](https://parrot-react.onrender.com/) | [parrot-react](https://github.com/yourusername/parrot-react) |
 | 👤 **Parent Service** | [API Docs](https://api-parent.yourdomain.com) | [parrot-parent](https://github.com/yourusername/parrot-parent) |
-| 💬 **Messenger Service** | [API Docs](https://api-messenger.yourdomain.com) | [parrot-messenger](https://github.com/yourusername/parrot-messenger) |
+| 💬 **Messenger Service** | [API Docs]->work pending | [parrot-messenger](https://github.com/yourusername/parrot-messenger) |
 
 ---
 
@@ -173,13 +173,7 @@ A comprehensive multi-service architecture for user management, real-time messag
 
 ### 1. **Parent Service** (Port: 5000)
 
-**Purpose**: User authentication, profile management, and contact management
 
-**Repository**: [GitHub Link - Parent Service](#)
-
-**Live Link**: [Parent Service URL](#)
-
-**Directory**: `/PARROT/Parent`
 
 #### Key Modules:
 
@@ -225,11 +219,6 @@ POST   /internal/messaging/authorize   - Internal service authorization
 
 **Purpose**: Real-time message delivery, WebSocket management, and message persistence
 
-**Repository**: [GitHub Link - Messenger Service](#)
-
-**Live Link**: [Messenger Service URL](#)
-
-**Directory**: `/PARROT/Messenger`
 
 #### Key Modules:
 
@@ -274,11 +263,6 @@ ws://localhost:8000/ws/chat/<room_id>/
 
 **Purpose**: Modern user interface for Parent and Messenger services
 
-**Repository**: [GitHub Link - React Frontend](#)
-
-**Live Link**: [React Frontend URL](#)
-
-**Directory**: `/PARROT/React`
 
 #### Key Modules:
 
@@ -1011,18 +995,6 @@ services:
 3. Make your changes and commit: `git commit -m 'Add feature'`
 4. Push to branch: `git push origin feature/your-feature`
 5. Submit a pull request
-
----
-
-## 📝 Repository Links
-
-### Service Repositories
-
-| Service | Repository | Live Link |
-|---------|-----------|-----------|
-| **Parent** | [GitHub - Parent Service](https://github.com/username/parrot-parent) | [Parent Service](https://parent.yourdomain.com) |
-| **Messenger** | [GitHub - Messenger Service](https://github.com/username/parrot-messenger) | [Messenger Service](https://messenger.yourdomain.com) |
-| **React** | [GitHub - React Frontend](https://github.com/username/parrot-react) | [Frontend](https://app.yourdomain.com) |
 
 
 ---
