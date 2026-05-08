@@ -1,15 +1,21 @@
-# Parrot - Unified Communication Platform
+# 🦜 Parrot - Unified Communication Platform
 
-<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-  <img src="images/Parrot.png" alt="Portfolio Preview" style="width: 180px; height: auto;" />
-  <img src="images/Parrotchat.png" alt="Portfolio Preview" style="width: 180px; height: auto;" />
-  <img src="images/Parrotlogin.png" alt="Portfolio Preview" style="width: 180px; height: auto;" />
-  <img src="images/Parrotchatroom.png" alt="Portfolio Preview" style="width: 180px; height: auto;" />
-</div>
+> **One spot for casual communication** 
+>
+> A comprehensive **multi-service architecture** for user management, real-time messaging, and a modern frontend interface. Parrot enables secure authentication, profile management, contact management, and real-time message delivery across web.
 
+---
 
+## 📸 Screenshots
 
-A comprehensive multi-service architecture for user management, real-time messaging, and a modern frontend interface. Parrot enables secure authentication, profile management, contact management, and real-time message delivery across web.
+### Parrot Interface Gallery
+
+Explore the intuitive and modern user interface of Parrot:
+
+| | | |
+|:-:|:-:|:-:|
+| ![Home Screen](images/Parrot.png)<br>**Home Screen** | ![Login & Auth](images/Parrotlogin.png)<br>**Login & Auth** | ![Chat Interface](images/Parrotchat.png)<br>**Chat Interface** |
+| ![Chat Room](images/Parrotchatroom.png)<br>**Chat Room** | | |
 
 ---
 
@@ -25,6 +31,7 @@ A comprehensive multi-service architecture for user management, real-time messag
 
 ## 📋 Table of Contents
 
+- [Screenshots](#screenshots)
 - [Project Overview](#project-overview)
 - [Architecture](#architecture)
 - [Services](#services)
@@ -34,6 +41,7 @@ A comprehensive multi-service architecture for user management, real-time messag
 - [Running the Services](#running-the-services)
 - [Deployment](#deployment)
 - [API Documentation](#api-documentation)
+- [Security](#security)
 - [Contributing](#contributing)
 
 ---
@@ -50,16 +58,16 @@ A comprehensive multi-service architecture for user management, real-time messag
 
 ### Key Features
 
-✅ User registration and authentication  
-✅ Profile management with image upload support  
-✅ Contact addition and management  
-✅ Real-time messaging with WebSocket support  
-✅ Message persistence and retrieval  
-✅ User blocking/unblocking functionality  
-✅ Internal service authorization  
-✅ REST API with JWT authentication  
-✅ Docker support for all services  
-✅ Environment-based configuration  
+✅ **User registration and authentication** with JWT tokens  
+✅ **Profile management** with image upload support  
+✅ **Contact addition and management** - save, update, block/unblock  
+✅ **Real-time messaging** with WebSocket support  
+✅ **Message persistence** and retrieval from database  
+✅ **User blocking/unblocking** functionality for user control  
+✅ **Internal service authorization** - service-to-service authentication  
+✅ **REST API with JWT authentication** - Secure endpoints  
+✅ **Docker support** for all microservices  
+✅ **Environment-based configuration** - Easy deployment
 
 ---
 
@@ -163,6 +171,8 @@ A comprehensive multi-service architecture for user management, real-time messag
 ```
 
 ### Key Architecture Points
+
+**Parrot follows a distributed microservices architecture with clear separation of concerns:**
 
 | Layer | Component | Responsibility |
 |-------|-----------|-----------------|
@@ -498,13 +508,17 @@ PyJWT, django-cors-headers
 
 ### Prerequisites
 
-- Python 3.9+
-- Node.js 18+
-- PostgreSQL 13+ (recommended)
-- Redis 7+ (for Messenger)
-- Docker & Docker Compose (optional)
+**Before getting started, ensure you have the following installed:**
+
+- **Python 3.9+** - Required for Flask and Django services
+- **Node.js 18+** - Required for React frontend
+- **PostgreSQL 13+** (recommended) - Primary database
+- **Redis 7+** - For real-time messaging (Messenger service)
+- **Docker & Docker Compose** (optional) - For containerized deployment
 
 ### Parent Service Setup
+
+**🔵 Set up the Parent Service (Authentication & Profile Management):**
 
 ```bash
 cd PARROT/Parent
@@ -531,6 +545,8 @@ python run.py
 
 ### Messenger Service Setup
 
+**🟣 Set up the Messenger Service (Real-time Messaging):**
+
 ```bash
 cd PARROT/Messenger
 
@@ -555,6 +571,8 @@ python manage.py runserver 0.0.0.0:8000
 ```
 
 ### React Frontend Setup
+
+**🎨 Set up the React Frontend (User Interface):**
 
 ```bash
 cd PARROT/React
@@ -943,14 +961,14 @@ Authorization: Bearer <access_token>
 
 ### Best Practices
 
-1. Store sensitive data in `.env` files
-2. Use HTTPS in production
-3. Set strong JWT secrets
-4. Configure CORS whitelist
-5. Validate all user inputs
-6. Use database SSL connections
-7. Rate limit API endpoints
-8. Log security events
+🔒 **Environment Variables** - Store sensitive data in `.env` files, never in code  
+🔐 **HTTPS in Production** - Always use HTTPS/SSL to encrypt data in transit  
+🔑 **Strong JWT Secrets** - Use long, random JWT secrets for token generation  
+⚙️ **CORS Configuration** - Configure CORS whitelists per environment  
+✔️ **Input Validation** - Validate all user inputs on both client and server  
+🔐 **Database SSL** - Use SSL connections for database communication  
+⏱️ **Rate Limiting** - Rate limit API endpoints to prevent abuse  
+📋 **Security Logging** - Log and monitor all security-relevant events
 
 ---
 
@@ -1007,20 +1025,25 @@ services:
 ---
 
 
-## 🗺️ Future updates
+## <span class="emoji">🗺️</span> Future Updates
 
-- [ ] Message encryption
-- [ ] User presence indicators (online status)
-- [ ] Message search functionality
-- [ ] Voice/video call integration
-- [ ] File sharing in messages
-- [ ] User roles and permissions
-- [ ] Analytics dashboard
-- [ ] Mobile app 
+## 🗺️ Future Updates
 
+**Exciting features coming soon to Parrot:**
+
+- [ ] **Message Encryption** - End-to-end encryption for all messages
+- [ ] **User Presence** - Real-time online status and presence indicators
+- [ ] **Message Search** - Full-text search across message history
+- [ ] **Voice/Video Calls** - Integrated voice and video calling capabilities
+- [ ] **File Sharing** - Share files directly through messages
+- [ ] **User Roles** - Advanced user roles and permissions system
+- [ ] **Analytics Dashboard** - Comprehensive analytics and usage dashboard
+- [ ] **Mobile App** - Native iOS and Android applications
 
 ---
 
-**Last Updated**: May 8, 2026  
-**Version**: 1.0.0 (base version)
+**Parrot - Unified Communication Platform**  
+**Version:** 1.0.0 | **Last Updated:** May 8, 2026
+
+Built with ❤️ using Flask, Django, React, PostgreSQL, and Redis
 
