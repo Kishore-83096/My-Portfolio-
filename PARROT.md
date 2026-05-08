@@ -9,7 +9,7 @@ A comprehensive multi-service architecture for user management, real-time messag
 | Service | Live Link | Repository |
 |---------|-----------|-----------|
 | 🎨 **React Frontend** | [Live App](https://parrot-react.onrender.com/) | [parrot-react](https://github.com/Kishore-83096/parrot-react) |
-| 👤 **Parent Service** | [API Docs](https://api-parent.yourdomain.com) | [parrot-parent](https://github.com/Kishore-83096/Parent) |
+| 👤 **Parent Service** | [API Docs](https://github.com/Kishore-83096/Parent/blob/main/README.md) | [parrot-parent](https://github.com/Kishore-83096/Parent) |
 | 💬 **Messenger Service** | [API Docs]->work pending | [parrot-messenger](https://github.com/Kishore-83096/Parrot-messenger) |
 
 ---
