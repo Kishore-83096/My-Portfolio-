@@ -1,4 +1,4 @@
-# Parrot - Unified Communication Platform
+# <img src="images/favicon.svg" width="40" height="40" alt="Parrot" style="margin-right: 10px; vertical-align: middle;" /> [Parrot - Unified Communication Platform](https://parrot-react.onrender.com/)
 
 > **One spot for casual communication** 
 >
