@@ -14,8 +14,8 @@ Explore the intuitive and modern user interface of Parrot:
 
 | | | |
 |:-:|:-:|:-:|
-| ![Home Screen](images/Parrot.png)<br>**Home Screen** | ![Login & Auth](images/Parrotlogin.png)<br>**Login & Auth** | ![Chat Interface](images/Parrotchat.png)<br>**Chat Interface** |
-| ![Chat Room](images/Parrotchatroom.png)<br>**Chat Room** |  ![Chat Interface](images/Parrotregisterationmodal.png)<br>**Chat Interface**| ![Chat Interface](images/Parrotloginmodal.png)<br>**Chat Interface** |
+| ![Home Screen](images/Parrot.png)<br>**Landing Page** | ![Login & Auth](images/Parrotlogin.png)<br>**User page** | ![Chat Interface](images/Parrotchat.png)<br>**Chat Interface** |
+| ![Chat Room](images/Parrotchatroom.png)<br>**Chat Room** |  ![Chat Interface](images/Parrotregisterationmodal.png)<br>**Registration Page**| ![Chat Interface](images/Parrotloginmodal.png)<br>**Login Page** |
 
 ---
 
