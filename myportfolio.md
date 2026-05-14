@@ -89,7 +89,7 @@ Recently completed a high-impact freelance engagement with **TURING** as an AI D
 #### 📋 Insurance Claim Agent – *FNOL Claims Processing System*
 > **An intelligent, end-to-end claims processing automation platform**
 >
-> **Live Deployment:** [Frontend](https://insurance-claim-agent-react.onrender.com) | [Backend API](https://insurance-claim-agent-zrm1.onrender.com) | [GitHub Repository](https://github.com/Kishore-83096/INSURANCE-CLAIM-AGENT)
+> **Live Deployment:** [INSURANCE CLAIM AGENT(WEBSERVICE)](https://insurance-claim-agent-react.onrender.com) | [GitHub Repository](https://github.com/Kishore-83096/INSURANCE-CLAIM-AGENT)
 >
 > **Key Features:**
 > - PDF claim document upload with intelligent text extraction (PyMuPDF)
@@ -109,7 +109,7 @@ Recently completed a high-impact freelance engagement with **TURING** as an AI D
 #### 🦜 PARROT – *Distributed Communication Platform*
 > **A microservices-based real-time messaging and user management ecosystem**
 >
-> **Live Deployment:** [Frontend](https://parrot-react.onrender.com) | [Documentation](https://github.com/Kishore-83096/My-Portfolio-/blob/main/PARROT.md) | [GitHub Repository](https://github.com/Kishore-83096/My-Portfolio-/blob/main/PARROT.md)
+> **Live Deployment:** [PARROT APP(WEBSERVICE)](https://parrot-react.onrender.com) | [Documentation](https://github.com/Kishore-83096/My-Portfolio-/blob/main/PARROT.md)
 >
 > **Architecture Highlights:**
 > - Distributed microservices architecture with independent scaling
@@ -128,7 +128,7 @@ Recently completed a high-impact freelance engagement with **TURING** as an AI D
 #### 🏠 KOTS Rental Platform – *Role-Based Property Management*
 > **A comprehensive rental ecosystem with granular access control**
 >
-> **Live Deployment:** [Frontend](https://kotsfrontend.onrender.com/home) | [Repository Documentation](https://github.com/Kishore-83096/kots/blob/main/README.md)
+> **Live Deployment:** [KOTS APP(WEBSERVICE)](https://kotsfrontend.onrender.com/home) | [Repository Documentation](https://github.com/Kishore-83096/kots/blob/main/README.md)
 >
 > **Features:**
 > - Role-based access control (User, Admin, Master) with secure authorization
