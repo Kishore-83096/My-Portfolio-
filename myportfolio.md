@@ -119,7 +119,6 @@ Recently completed a high-impact freelance engagement with **TURING** as an AI D
 > - Redis caching for optimized message delivery
 > - Production-grade Docker containerization and orchestration
 >
-> **Business Impact:** Enables scalable, real-time communication with 99.5%+ uptime and support for thousands of concurrent users.
 >
 > **Tech Stack:** `React.js` `Django REST Framework` `Flask` `Django Channels` `PostgreSQL` `Redis` `Docker` `WebSockets`
 
