@@ -100,7 +100,6 @@ Recently completed a high-impact freelance engagement with **TURING** as an AI D
 > - Google Drive integration for test file management
 > - Production-grade Docker/Render deployment with health monitoring
 >
-> **Business Impact:** Automates initial claim intake, reduces manual processing by 70%, ensures consistent validation, and provides transparent AI-driven routing explanations.
 >
 > **Tech Stack:** `React.js` `Vite` `Flask` `PyMuPDF` `NVIDIA NIM` `PostgreSQL` `Docker` `Render` `Nginx` `Gunicorn`
 
