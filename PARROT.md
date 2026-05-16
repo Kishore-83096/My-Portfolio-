@@ -498,41 +498,7 @@ VITE_MESSENGER_WS=wss://yourdomain.com/ws
 
 ---
 
-## 📋 Contributing
 
-We welcome contributions! Here's how to help:
-
-1. **Fork** the repository
-2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
-3. **Commit changes** (`git commit -m 'Add amazing feature'`)
-4. **Push to branch** (`git push origin feature/amazing-feature`)
-5. **Open a Pull Request** with description of changes
-
-### Development Guidelines
-
-- Follow existing code style and patterns
-- Write meaningful commit messages
-- Test changes before submitting PR
-- Update documentation as needed
-- Respect existing architecture decisions
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
----
-
-## 🙋 Support
-
-For questions, issues, or feature requests:
-
-- **Open an Issue** on the respective GitHub repository
-- **Check Documentation** for existing solutions
-- **Review Code** in each service's README
-
----
 
 ## 🔗 References
 
