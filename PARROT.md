@@ -20,9 +20,6 @@ Parrot is a web communication platform with account management, saved contacts, 
 - [Linked Devices](#5-linked-devices)
 - [Contacts And Messaging](#6-contacts-and-messaging)
 - [Profile And Account](#7-profile-and-account)
-- [Local Development](#local-development)
-- [Service Documentation](#service-documentation)
-- [Repository Notes](#repository-notes)
 
 ## About The App
 
@@ -47,11 +44,11 @@ User secrets are handled with separate protections:
 
 The project is split into three services:
 
-| Project | Role | Repository |
-|---|---|---|
-| [`React/`](React/) | Browser frontend for login, profile, contacts, chat, linked devices, and encrypted-message recovery. | [Kishore-83096/parrot-react](https://github.com/Kishore-83096/parrot-react) |
-| [`Parent/`](Parent/) | Flask API for accounts, JWT sessions, profiles, contacts, blocking, and Messenger authorization. | [Kishore-83096/Parent](https://github.com/Kishore-83096/Parent) |
-| [`Messenger/`](Messenger/) | Django + Channels API for rooms, messages, E2EE device keys, encrypted file uploads, and WebSockets. | [Kishore-83096/Parrot-messenger](https://github.com/Kishore-83096/Parrot-messenger) |
+| Project | Role | Tech Stack | Repository |
+|---|---|---|---|
+| [`React/`](React/) | Browser frontend for login, profile, contacts, chat, linked devices, and encrypted-message recovery. | React 19, TypeScript, Vite, Axios, React Router, Lucide icons, Tailwind CSS tooling, libsodium-wrappers | [Kishore-83096/parrot-react](https://github.com/Kishore-83096/parrot-react) |
+| [`Parent/`](Parent/) | Account and contact service for login, profiles, JWT sessions, contact rules, blocking, and Messenger authorization. | Python 3.12, Flask, Flask-SQLAlchemy, Flask-Migrate, Alembic, Marshmallow, Flask-JWT-Extended, PostgreSQL/SQLite, Cloudinary, Gunicorn, Waitress, Docker | [Kishore-83096/Parent](https://github.com/Kishore-83096/Parent) |
+| [`Messenger/`](Messenger/) | Messaging service for rooms, messages, E2EE device keys, encrypted file uploads, delivery state, and WebSockets. | Python 3.12, Django, Django Channels, Redis, SQLite/PostgreSQL, Cloudinary, PyJWT, cryptography | [Kishore-83096/Parrot-messenger](https://github.com/Kishore-83096/Parrot-messenger) |
 
 ## Architecture
 
@@ -206,50 +203,3 @@ The account menu supports:
 - account deletion
 - linked-device and recovery-key management
 - logout
-
-## Local Development
-
-Each service has its own README with detailed setup and API documentation.
-
-Typical local ports:
-
-| Service | URL |
-|---|---|
-| React | `http://127.0.0.1:5173` |
-| Parent | `http://127.0.0.1:5000/parent` |
-| Messenger | `http://127.0.0.1:8000` |
-
-Start order:
-
-1. Parent service
-2. Messenger service
-3. React frontend
-
-React expects these environment values:
-
-```env
-VITE_PARENT_API_BASE_URL=http://127.0.0.1:5000/parent
-VITE_MESSENGER_SERVICE_URL=http://127.0.0.1:8000
-```
-
-Parent and Messenger must share:
-
-```env
-INTERNAL_SERVICE_TOKEN=<same-value>
-MESSAGING_JWT_SECRET=<same-value>
-MESSAGING_JWT_ISSUER=parrot-parent
-MESSAGING_JWT_AUDIENCE=parrot-messenger
-```
-
-## Service Documentation
-
-- Parent API and setup: `Parent/README.md`
-- Messenger API, WebSockets, and E2EE devices: `Messenger/README.md`
-- React frontend setup and flow: `React/README.md`
-
-## Repository Notes
-
-- Do not commit `.env` files or production secrets.
-- Run database migrations before testing backend changes.
-- Run focused backend tests after changing Messenger device or recovery logic.
-- Run `npm run build` after changing React E2EE, routing, or shared UI code.
