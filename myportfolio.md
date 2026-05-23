@@ -32,7 +32,7 @@ Recently completed a high-impact freelance engagement with **TURING** as an AI D
 -   **AI/LLM Knowledge:** Developed expertise in prompt engineering, structured data formatting, and understanding model interpretation patterns for generative AI systems.
 
 #### 🧑‍💻 Associate Software Engineer
-**Tech Mahindra** | *September 2022 - April 2023* | On-site
+**Tech Mahindra** | *September 2022 - April 2023* | Visakhapatnam
 
 -   **System Architecture:** Architected a cloud-ready **Online Assessment Platform** using **Python, Flask, and microservices**, handling concurrent user sessions with sub-second response times.
 -   **API Development:** Built **15+ RESTful endpoints** for exam lifecycle management (creation, question delivery, evaluation, reporting).
